@@ -8,7 +8,7 @@
     background-color: black;
 
 }
-.aboutus, .nowshowing, .prices{
+.aboutus, .nowshowing, .prices, .about_us, .now_showing, .prices_{
     font-family: "Bungee Inline", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -42,12 +42,36 @@ header{
 }
 /*END HEADER CSS */
 /*FOOTER CSS*/
-.footer{
+/* .footer{
     padding: 50px 0;
-    color: darkgoldenrod;
+    color:darkgoldenrod;
+    justify-content: space-between;
     background-color: black;
+    text-align: center;
+   
+} */
+.table{
+    border: 1px solid black;
 }
-.footer h3{
+.th {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.td {
+    color:white;
+    font-size: 14px;
+}
+.footer_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* .footer h3{
     font-family: "Bungee Inline", sans-serif;
     margin-top: 0;
     margin-bottom:12px;
@@ -71,6 +95,6 @@ header{
   
   .footer-dark ul a:hover {
     opacity:0.8;
-  }
+  } */
 /*END FOOTER CSS*/
 
