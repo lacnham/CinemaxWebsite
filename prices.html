@@ -2,17 +2,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='description' content=''>
+    <link rel='stylesheet' href='style.css'>
     <title>Prices</title>
     <style>
         table, th, td {
             width: 100%;
-            border: 2px solid black;
+            color: white;
+            border: 2px solid white;
             border-collapse: collapse;
             padding: 8px;
             text-align: left;
         }
         th{
-            background-color: rgb(247, 190, 255);
+            background-color: darkgoldenrod;
+            color: white;
             white-space: normal;
         }
         tr:hover {background-color: rgb(247, 190, 255);}
@@ -20,9 +25,23 @@
 </head>
 
 <body>
-    <h1>Prices</h1>
-    <p>Discount from <b>Monday - Friday</b> <b>after 12pm</b></p>
-    <p>All-day discount on <b>Mondays and Wednesdays</b></p>
+    <header>
+        <a href="index.html">
+            <img class='logo' src='images/cinemaxlogo.png' alt='logo' width="110" height='40'>
+        </a>
+
+        <nav>
+            <ul class="links">
+                <li class="aboutus"><a class="about_us" href="aboutus.html">About Us</a></li>
+                <li class="prices"><a class="prices_" href="prices.html">Prices</a></li>
+                <li class="nowshowing"><a class="now_showing" href="nowshowing.html">Now Showing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 style="color: darkgoldenrod;">Prices</h1>
+    <p style="color: white;">Discount from <b>Monday - Friday</b> <b>after 12pm</b></p>
+    <p style="color: white;">All-day discount on <b>Mondays and Wednesdays</b></p>
+
     <table>
         <tr>
             <th>Seat Type</th>
